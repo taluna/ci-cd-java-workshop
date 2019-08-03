@@ -4,12 +4,19 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * jksdbsjkds.
+ */
 @RestController
 @CrossOrigin
 public class TestController {
 
-	@GetMapping("/home")
-	public String homeRequest() {
-		return "Hello World!";
-	}
+   /**
+   * alksjbajsa.
+   * @return kajshakjsa.
+    */
+    @GetMapping("/home")
+   public final String homeRequest() {
+     return "Hello World!";
+    }
 }
